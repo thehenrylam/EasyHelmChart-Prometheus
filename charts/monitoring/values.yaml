@@ -1,6 +1,0 @@
-kube-prometheus-stack:
-  grafana:
-    enabled: true
-  prometheus:
-    prometheusSpec:
-      retention: 7d
