@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  prometheus:
+  - apiVersion: v2
+    created: "2026-02-16T20:37:08.348975863Z"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 81.5.1
+    description: Easily launch Prometheus via a HelmChart
+    digest: 6b6d7a1a88ae3b031c97d47fe9371933be8e97a22751af3c2ad0d7b66b2956c3
+    name: prometheus
+    type: application
+    urls:
+    - https://github.com/thehenrylam/EasyHelmChart-Prometheus/releases/download/prometheus-0.1.0-alpha.0/prometheus-0.1.0-alpha.0.tgz
+    version: 0.1.0-alpha.0
+generated: "2026-02-16T20:37:08.348986694Z"
